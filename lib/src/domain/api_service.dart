@@ -47,7 +47,7 @@ class ApiService {
   //MOVIE
   Future<List<Movies>> fetchMovies() async {
     String url =
-        "https://api.themoviedb.org/3/movie/popular?api_key=e25f618ffbb51eedda1c85ced86fe649";
+        "https://api.themoviedb.org/3/movie/popular?api_key=<API_KEY>";
     try {
       var response = await _dio.get(url);
       if (response.statusCode == 200) {
