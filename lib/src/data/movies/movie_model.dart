@@ -11,8 +11,7 @@ class MovieList {
 
   MovieList({required this.page, required this.movies});
 
-  factory MovieList.fromJson(Map<String, dynamic> json) =>
-      MovieList(
+  factory MovieList.fromJson(Map<String, dynamic> json) => MovieList(
       page: json['page'] ?? 0,
       movies: json['results'] == null
           ? []
@@ -34,6 +33,8 @@ class Movies {
 
   Movies({required this.title, required this.overview, required this.id});
 
-  factory Movies.fromJson(Map<String, dynamic> json) =>
-      Movies(title: json['title'] ?? '', overview: json['overview'] ?? '', id: json['id'] ?? 0);
+  factory Movies.fromJson(Map<String, dynamic> json) => Movies(
+      title: json['title'] ?? '',
+      overview: json['overview'] ?? '',
+      id: json['id'] ?? 0);
 }

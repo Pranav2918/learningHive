@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hivedemo/api_service.dart';
-import 'package:hivedemo/post_model.dart';
-import 'package:hivedemo/posts_cubit/post_states.dart';
+import 'package:hivedemo/src/data/posts/post_model.dart';
+import 'package:hivedemo/src/domain/api_service.dart';
+import 'package:hivedemo/src/presentation/posts/posts_cubit/post_states.dart';
 
 class PostListCubit extends Cubit<PostListStates> {
   final ApiService apiService;

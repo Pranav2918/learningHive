@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hivedemo/movie_screen.dart';
-import 'package:hivedemo/post_model.dart';
-import 'package:hivedemo/posts_cubit/post_cubit.dart';
-import 'package:hivedemo/posts_cubit/post_states.dart';
+import 'package:hivedemo/src/presentation/movies/screens/movie_screen.dart';
+import 'package:hivedemo/src/presentation/posts/posts_cubit/post_cubit.dart';
+import 'package:hivedemo/src/presentation/posts/posts_cubit/post_states.dart';
+import 'package:hivedemo/src/data/posts/post_model.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class PostScreen extends StatefulWidget {
+  const PostScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<PostScreen> createState() => _PostScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _PostScreenState extends State<PostScreen> {
   List<Posts> postList = [];
 
   @override

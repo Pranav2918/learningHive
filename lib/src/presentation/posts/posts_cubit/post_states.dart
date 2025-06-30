@@ -1,4 +1,4 @@
-import 'package:hivedemo/post_model.dart';
+import 'package:hivedemo/src/data/posts/post_model.dart';
 
 class PostListStates {}
 

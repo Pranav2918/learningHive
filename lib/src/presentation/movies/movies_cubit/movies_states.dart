@@ -1,4 +1,4 @@
-import 'package:hivedemo/movie_model.dart';
+import 'package:hivedemo/src/data/movies/movie_model.dart';
 
 class MoviesStates {}
 

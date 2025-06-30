@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hivedemo/movies_cubit/movies_cubit.dart';
-import 'package:hivedemo/movies_cubit/movies_states.dart';
-
-import 'movie_model.dart';
+import 'package:hivedemo/src/presentation/movies/movies_cubit/movies_cubit.dart';
+import 'package:hivedemo/src/presentation/movies/movies_cubit/movies_states.dart';
+import 'package:hivedemo/src/data/movies/movie_model.dart';
 
 class MovieScreen extends StatefulWidget {
   const MovieScreen({super.key});
